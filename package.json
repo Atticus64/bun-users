@@ -1,0 +1,19 @@
+{
+  "name": "elysia-supabase",
+  "version": "1.0.44",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "bun run src/index.ts",
+    "dev": "bun run --watch src/index.ts"
+  },
+  "dependencies": {
+    "elysia": "latest",
+    "pg": "^8.11.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.32.1"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "module": "src/index.js"
+}
