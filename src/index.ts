@@ -19,7 +19,7 @@ const User = sql.define("User", {
 	tableName: 'bun-users'
 })
 
-await sql.sync({ force: true });
+// await sql.sync({ force: true });
 
 const app = new Elysia()
 	.get("/users", async ({ set }) => {
